@@ -5,18 +5,18 @@
 @theme {
     --font-kanit: 'Kanit', 'serif';
 
-    --color-primary: oklch(71.079% 0.14919 234.22);
-    --color-primary-50: oklch(89.625% 0.07078 222.55);
-    --color-primary-100: oklch(87.232% 0.08643 223.52);
-    --color-primary-200: oklch(83.032% 0.11378 225);
-    --color-primary-300: oklch(79.345% 0.135 227.56);
-    --color-primary-400: oklch(76.155% 0.14992 231.25);
-    --color-primary-500: oklch(71.079% 0.14919 234.22);
-    --color-primary-600: oklch(58.404% 0.12181 233.74);
-    --color-primary-700: oklch(44.993% 0.0928 232.88);
-    --color-primary-800: oklch(30.475% 0.06132 230.84);
-    --color-primary-900: oklch(13.844% 0.02531 220.59);
-    --color-primary-950: oklch(0% 0 none);
+    --color-primary: oklch(63.759% 0.24789 27.453);
+    --color-primary-50: oklch(91.504% 0.04365 17.978);
+    --color-primary-100: oklch(87.149% 0.06895 16.348);
+    --color-primary-200: oklch(79.1% 0.12112 18.257);
+    --color-primary-300: oklch(72.267% 0.17238 21.114);
+    --color-primary-400: oklch(66.92% 0.21803 24.239);
+    --color-primary-500: oklch(63.759% 0.24789 27.453);
+    --color-primary-600: oklch(58.287% 0.23891 28.889);
+    --color-primary-700: oklch(47.366% 0.19404 28.72);
+    --color-primary-800: oklch(35.77% 0.14636 28.343);
+    --color-primary-900: oklch(23.107% 0.09449 28.134);
+    --color-primary-950: oklch(16.123% 0.06554 26.068);
 }
 
 /*
@@ -48,36 +48,11 @@
     }
 
     button:not(.unstyled) {
-        @apply bg-primary-600 dark:bg-primary-700 rounded-lg hover:bg-primary-800 focus:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-500 text-primary-50;
+        @apply bg-primary-700 rounded-lg hover:bg-primary-800 focus:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-500 text-white;
     }
 
     a:not(.unstyled) {
-        @apply dark:text-primary-300 dark:hover:text-primary-400 text-primary-600 hover:text-primary-900;
-    }
-
-    /* Utilities */
-    .full {
-        @apply h-full w-full max-h-dvh max-w-dvw;
-    }
-
-    .card {
-        @apply bg-white shadow-md rounded-xl py-4 px-2 dark:bg-primary-950;
-    }
-
-    .oposite-text-color {
-        @apply text-primary-50 dark:text-primary-950;
-    }
-
-    button.primary {
-        @apply rounded-md px-4 py-2;
-    }
-
-    button.alternative {
-        @apply bg-gray-200 hover:bg-gray-300 rounded-md px-4 py-2 text-primary-950;
-    }
-
-    button.transparent {
-        @apply bg-transparent hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md px-4 py-2 text-primary-950 dark:text-primary-50 focus:bg-gray-200 dark:focus:bg-gray-700;
+        @apply text-white hover:text-primary-200;
     }
 
     /* Scrollbar */

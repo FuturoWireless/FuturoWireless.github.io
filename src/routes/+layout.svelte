@@ -24,7 +24,7 @@
 </svelte:head>
 
 <header
-  class="w-full h-20 flex flex-row items-center py-1 px-2 justify-between fixed bg-white shadow-md"
+  class="w-full h-20 flex flex-row items-center py-1 px-2 justify-between fixed bg-gray-950 shadow-md"
 >
   <img
     src="/favicon.png"
@@ -34,7 +34,7 @@
   <nav></nav>
   <button
     tabindex="0"
-    class="flex flex-row gap-2 items-center primary text-white mr-3"
+    class="flex flex-row gap-2 items-center rounded-md pr-10 pl-8 py-2 text-white mr-3"
     onclick={() => {
       open('https://futurowireless.com.br/central_assinante_web/login', '_self')
     }}
@@ -47,7 +47,7 @@
 {@render children()}
 
 <footer>
-  <div class="bg-primary-950 text-white py-4 text-center">
+  <div class="bg-gray-950 text-white py-4 text-center">
     <p>
       &copy; {new Date().getFullYear()} Futuro Wireless. Todos os direitos reservados.
     </p>
