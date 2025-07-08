@@ -86,11 +86,11 @@
     <img
       src="/pictures/predio.jpg"
       alt="Predio da Futuro Wireless"
-      class="h-100 object-cover"
+      class="h-90 object-cover"
     />
     <p>
       A Futuro Wireless é uma provedora de internet que se destaca por oferecer
-      serviços de alta qualidade e confiabilidade.<br /><br />
+      serviços de alta qualidade e confiabilidade.<br />
       Com uma equipe dedicada e tecnologia de ponta, garantimos conexões rápidas
       e estáveis para nossos clientes.
       <br />Estamos comprometidos em conectar você ao futuro, proporcionando uma
@@ -99,7 +99,6 @@
       excelência em conectividade. <br />
       Nossa missão é levar internet de alta qualidade a todos, com um atendimento
       personalizado e soluções que atendam às <b>suas</b> necessidades. <br />
-      <br />
       Junte-se a nós e descubra como a Futuro Wireless pode <b>transformar</b>
       sua experiência online!
     </p>

@@ -2,6 +2,7 @@
   import Fa from 'svelte-fa'
   import { faCircleUser } from '@fortawesome/free-solid-svg-icons'
   import '../app.css'
+    import Logo from '$lib/logo.svelte'
 
   let { children } = $props()
 </script>
@@ -26,10 +27,8 @@
 <header
   class="w-full h-20 flex flex-row items-center py-1 px-2 justify-between fixed bg-gray-950 shadow-md"
 >
-  <img
-    src="/favicon.png"
-    alt="Logo da Futuro Wireless. Contém uma representação estilizada de saturno em tom azul escuro."
-    class="h-full"
+  <Logo
+    class="*:fill-white h-full"
   />
   <nav></nav>
   <button
@@ -48,8 +47,16 @@
 
 <footer>
   <div class="bg-gray-950 text-white py-4 text-center">
-    <p>
-      &copy; {new Date().getFullYear()} Futuro Wireless. Todos os direitos reservados.
+    <p class="text-sm leading-4">
+      &copy; {new Date().getFullYear()} Futuro Wireless. Todos os direitos reservados.<br
+      />
+      Tv. Conde de Porto Alegre, 180, Sala 02, Centro, Seberi - RS, 98380-000<br
+      />
+      CNPJ: 10.623.026/0001-40
     </p>
   </div>
+  <!--
+    Código por: Leonardo Kopeski
+    github.com/leonardokopeski
+  -->
 </footer>
